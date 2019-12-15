@@ -10,22 +10,22 @@ You can drag and drop this 'RoundingNumberExtension.swift' file to your project 
 
 ### Functions:
 
-#### 1. roundedNumber(numberOfPlaces:)
-* Use roundedNumber(numberOfPlaces:) to get new number rounded to specified number of places after decimal point.
+#### 1. roundedNumber(toNumberOfPlaces:)
+* Use roundedNumber(toNumberOfPlaces:) to get new number rounded to specified number of places after decimal point.
 
 * For e.g.
 
 ```
 let firstNumber: Double = 1.2345
-let secondNumber = firstNumber.roundedNumber(numberOfPlaces: 2)  // returns 1.23 and keeps firstNumber as it is
+let secondNumber = firstNumber.roundedNumber(toNumberOfPlaces: 2)  // returns 1.23 and keeps firstNumber as it is
 ```
 
-#### 2. roundNumber(numberOfPlaces:)
-* Use roundNumber(numberOfPlaces:) to round a number to specified number of places after decimal point.
+#### 2. roundNumber(toNumberOfPlaces:)
+* Use roundNumber(toNumberOfPlaces:) to round a number to specified number of places after decimal point.
 
 * For e.g.
 
 ```
 var firstNumber: Float = 1.2345
-firstNumber.roundedNumber(numberOfPlaces: 2)  // mutates firstNumber to 1.23
+firstNumber.roundedNumber(toNumberOfPlaces: 2)  // mutates firstNumber to 1.23
 ```
