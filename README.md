@@ -27,5 +27,5 @@ let secondNumber = firstNumber.roundedNumber(toNumberOfPlaces: 2)  // returns 1.
 
 ```
 var firstNumber: Float = 1.2345
-firstNumber.roundedNumber(toNumberOfPlaces: 2)  // mutates firstNumber to 1.23
+firstNumber.roundNumber(toNumberOfPlaces: 2)  // mutates firstNumber to 1.23
 ```
